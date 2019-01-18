@@ -14,10 +14,16 @@ up update-resolv-conf
 down update-resolv-conf
 ```
 
+Script security line should be uncommented:
+
+```
+script-security 2
+```
+
 These lines should be commented:
 ```
-#user nobody
-#group nogroup
+# user nobody
+# group nogroup
 ```
 
 ## Run
